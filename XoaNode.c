@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include "BST.h"
-
+extern int cnt_node;
 
 void XoaNode(TREE* t, int data)
 {
@@ -30,6 +30,7 @@ void XoaNode(TREE* t, int data)
         {
             NODE* Y = (*t)->pRight;
             DiTimNodeTheMang(&X, &Y);
+            cnt_node-=1;
         }
         if (X != *t)
             free(X);
