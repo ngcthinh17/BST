@@ -107,7 +107,7 @@ void Menu(TREE* t)
         {
             printf("so luong node trong cay la ");
             printf("%d", cnt_node);
-            print("\n");
+            printf("\n");
             system("pause");
         }
         else
