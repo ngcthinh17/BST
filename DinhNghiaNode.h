@@ -2,7 +2,8 @@
 #ifndef DINHNGHIANODE_H
 #define DINHNGHIANODE_H
 
-typedef struct NODE {
+typedef struct NODE 
+{
     int data;
     struct NODE* pLeft;
     struct NODE* pRight;
