@@ -3,7 +3,8 @@
 #include "Menu.h"
 
 
-int main() {
+int main() 
+{
     TREE t;
     KhoiTaoCay(&t);
     Menu(&t);
